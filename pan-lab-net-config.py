@@ -28,6 +28,8 @@ import hashlib
 import fnmatch
 from os.path import expanduser
 from subprocess import call
+from sys import platform
+import platform
 
 #MacOS Fusion Variables
 vmnetfile = "fusion-vmnet-config.txt"
