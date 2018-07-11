@@ -31,11 +31,11 @@ from subprocess import call
 
 #MacOS Fusion Variables
 vmnetfile = "fusion-vmnet-config.txt"
-fusionconf = ''
+fusionconf = 'https://raw.githubusercontent.com/packetalien/pan-lab-net-config/master/fusion-vmnet-config.txt'
 funsioncfgfile = 'networking'
 
 #Windows Workstation Variables
-workstationconf = ''
+workstationconf = 'https://github.com/packetalien/pan-lab-net-config/blob/master/se-default-vmnet.cfg'
 workstationcfgfile = 'se-default-vmnet.cfg'
 
 
